@@ -1,0 +1,13 @@
+title User visits my blog
+
+note over browser:
+User types the URL, then HEIE
+browser sends a GET request
+end note
+
+browser->server: HTTP GET https://my_super_website.me/index.html
+note over server:
+Server returns HTTP status code 200 
+and returns the web page index.html
+end note
+server-->browser: Http code 200 
